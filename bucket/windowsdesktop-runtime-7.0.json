@@ -1,21 +1,21 @@
 {
-    "version": "7.0.19",
+    "version": "7.0.20",
     "description": "Microsoft .NET 7.0 Desktop Runtime",
     "homepage": "https://dotnet.microsoft.com/download/dotnet",
     "license": "MIT",
     "notes": "You can now remove this installer with 'scoop uninstall windowsdesktop-runtime'",
     "architecture": {
         "64bit": {
-            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.19/windowsdesktop-runtime-7.0.19-win-x64.exe",
-            "hash": "sha512:a5bf3d8a0552d780d4b5dcef7b4b8158cedd4c3d724353343912861c1195d21706ec52b718216d0a4f9cd65cc385afb6864115f9217cd72379fec22dd37be3cd"
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.20/windowsdesktop-runtime-7.0.20-win-x64.exe",
+            "hash": "sha512:a0ed41e1672a25a9ee2cf3ca081e90f037b889100dbf8312e277447a801a4f3b7af464fa05fb796a24f89cd119102e8d0a382f4711e4e6263e5503642231da88"
         },
         "32bit": {
-            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.19/windowsdesktop-runtime-7.0.19-win-x86.exe",
-            "hash": "sha512:bae6f65513a65b661bd762094a729a5683306d0f1bda1a8071309baa632abfd9902d9c1436d20f703a94aa8c0e3133f42fae619866be1785a01cd997390cbe41"
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.20/windowsdesktop-runtime-7.0.20-win-x86.exe",
+            "hash": "sha512:cfdf8369b3ac1c8fcba3274cb716c9faaa1df489ec3d3fd77419e78a0d740588546269ab7d77e09b3d4fe3817c55ca63c909d259ab7fe8b33da351453b58a05b"
         },
         "arm64": {
-            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.19/windowsdesktop-runtime-7.0.19-win-arm64.exe",
-            "hash": "sha512:aed3c87cf5f42b7a63ba1c2274962b57236b866529afc581896ec8d2ad97acaa5fdfafb483478cffa6617e5f7e390941708a10108339a1978ed00def11b86344"
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.20/windowsdesktop-runtime-7.0.20-win-arm64.exe",
+            "hash": "sha512:b11f73901c5268b1f68850e8afaf889778f18b6052b818d3d1eac6ff84f2671e24c6c7b4dc28dcba7bbe652acf08990cc4a1655c766ee659e75c9aef5b3ff795"
         }
     },
     "pre_install": "if (!(is_admin)) { throw 'Admin privileges are required.' }",
